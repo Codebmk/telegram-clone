@@ -1,0 +1,24 @@
+.chatsearchinput {
+    flex: 0.15;
+    position: absolute;
+    left: 12px;
+    right: 12px;
+    bottom: 30px;
+    display: flex;
+    justify-content: center;
+    
+
+    &__field {
+        outline: 0;
+        border: 0;
+        background-color: #e1e1ff;
+        height: 55px;
+        border-radius: 25px;
+        flex: 1;
+        padding-left: 30px;
+    }
+
+    button {
+        width: 100px;
+    }
+}

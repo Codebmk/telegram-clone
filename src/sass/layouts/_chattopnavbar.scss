@@ -1,0 +1,43 @@
+.chattopnavbar {
+    display: flex;
+    flex: 1;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    background-color: #FFF;
+    box-shadow: 2px 2px #EEE;
+}
+
+.chattopnavbar:hover {
+    cursor: pointer;
+}
+
+.chattopnavbar__leftOptions {
+    display: flex;
+    align-items: center;
+}
+
+.chattopnavbar__profileDetails {
+    margin-left: 15px;
+    padding: 0;
+}
+
+.chattopnavbar__profileDetails h3 {
+    padding: 0;
+}
+
+.chattopnavbar__rightOptions {
+    display: flex;
+}
+
+.chattopnavbar__iconOption {
+    margin: 0 10px;
+    font-size: 22px !important;
+    padding: 12px !important;
+    border-radius: 25px !important;
+}
+
+.chattopnavbar__iconOption:hover {
+    background-color: #e1e1ff !important;
+    cursor: pointer !important;
+}

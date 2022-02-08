@@ -1,0 +1,187 @@
+
+.sidebar {
+  flex: 0.25;
+  height: 100vh;
+  border-right: 1px solid #e7e7e7;
+  overflow-y: hidden;
+  display: flex;
+  flex-direction: column; }
+  .sidebar__menu {
+    flex: 0.15;
+    border-bottom: 1px solid #EEE;
+    height: 110px;
+    background-color: #FFF;
+    padding: 10px 20px 0 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between; }
+  .sidebar__menuTop {
+    display: flex;
+    align-items: center; }
+  .sidebar__search {
+    position: relative;
+    margin-left: 10px;
+    flex: 1;
+    display: flex; }
+    .sidebar__searchIcon {
+      position: absolute;
+      top: 10px;
+      left: 12px;
+      color: #a5a5a5 !important; }
+    .sidebar__searchInput {
+      outline: 0;
+      border: 0;
+      background-color: #e1e1ff;
+      border-radius: 25px;
+      height: 45px;
+      padding-left: 40px;
+      font-size: 16px;
+      color: #a5a5a5;
+      flex: 1; }
+  .sidebar__tab {
+    display: flex; }
+    .sidebar__tabOption {
+      margin-right: 12px;
+      padding: 10px;
+      font-weight: 500;
+      font-size: 14px; }
+    .sidebar__tabOption:hover {
+      cursor: pointer;
+      background-color: #EEE;
+      border-top-left-radius: 5px;
+      border-top-right-radius: 5px; }
+    .sidebar__tabOption:active {
+      border-bottom: 3px solid #0000ff;
+      color: #0000ff; }
+  .sidebar__messageList {
+    flex: 0.85;
+    padding: 5px;
+    overflow-y: scroll; }
+  .sidebar__messageItem {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    margin-bottom: 10px; }
+  .sidebar__messageItem:hover {
+    background-color: #e1e1ff;
+    border-radius: 12px;
+    cursor: pointer; }
+  .sidebar__messageProfileImg {
+    width: 50px !important;
+    height: 50px !important;
+    border-radius: 25px !important; }
+  .sidebar__messageDetails {
+    margin-left: 15px;
+    width: 100%; }
+  .sidebar__messageDetails h3 {
+    font-size: 18px; }
+  .sidebar__messageRight {
+    display: flex;
+    flex-direction: column; }
+  .sidebar__messagetopDisplay {
+    display: flex;
+    align-items: center;
+    font-size: 14px; }
+  .sidebar__checkIcon {
+    font-size: 16px !important;
+    color: #a5a5a5 !important; }
+  .sidebar__numOfUnreadMessages {
+    background-color: #a5a5a5;
+    color: #e7e7e7;
+    font-size: 14px;
+    padding: 5px;
+    border-radius: 25px; }
+    .sidebar__numOfUnreadMessages p {
+      text-align: center; }
+
+.chattopnavbar {
+  display: flex;
+  flex: 1;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+  background-color: #FFF;
+  box-shadow: 2px 2px #EEE; }
+
+.chattopnavbar:hover {
+  cursor: pointer; }
+
+.chattopnavbar__leftOptions {
+  display: flex;
+  align-items: center; }
+
+.chattopnavbar__profileDetails {
+  margin-left: 15px;
+  padding: 0; }
+
+.chattopnavbar__profileDetails h3 {
+  padding: 0; }
+
+.chattopnavbar__rightOptions {
+  display: flex; }
+
+.chattopnavbar__iconOption {
+  margin: 0 10px;
+  font-size: 22px !important;
+  padding: 12px !important;
+  border-radius: 25px !important; }
+
+.chattopnavbar__iconOption:hover {
+  background-color: #e1e1ff !important;
+  cursor: pointer !important; }
+
+.chatmessage {
+  padding: 10px;
+  max-width: 350px;
+  border-radius: 12px;
+  background-color: #e1e1ff;
+  margin: 25px 12px; }
+  .chatmessage__messagetxt {
+    font-size: 18px; }
+  .chatmessage__timesent {
+    display: flex;
+    justify-content: flex-end;
+    font-size: 14px;
+    color: #919191; }
+
+.chatsearchinput {
+  flex: 0.15;
+  position: absolute;
+  left: 12px;
+  right: 12px;
+  bottom: 30px;
+  display: flex;
+  justify-content: center; }
+  .chatsearchinput__field {
+    outline: 0;
+    border: 0;
+    background-color: #e1e1ff;
+    height: 55px;
+    border-radius: 25px;
+    flex: 1;
+    padding-left: 30px; }
+  .chatsearchinput button {
+    width: 100px; }
+
+* {
+  margin: 0;
+  padding: 0; }
+
+.home {
+  display: flex;
+  flex-direction: row;
+  height: 100vh;
+  width: 100vw;
+  margin: 0;
+  padding: 0;
+  position: relative; }
+
+.home__main-container {
+  flex: 0.75;
+  position: relative;
+  display: flex;
+  flex-direction: column; }
+  .home__main-container__chatmessageList {
+    flex: 0.85;
+    overflow-y: scroll; }

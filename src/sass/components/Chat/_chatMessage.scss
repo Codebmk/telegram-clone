@@ -1,0 +1,18 @@
+.chatmessage {
+    padding: 10px;
+    max-width: 350px;
+    border-radius: 12px;
+    background-color: #e1e1ff;
+    margin: 25px 12px;
+
+    &__messagetxt {
+        font-size: 18px;
+    }
+
+    &__timesent {
+        display: flex;
+        justify-content: flex-end;
+        font-size: 14px;
+        color: #919191;
+    }
+}
